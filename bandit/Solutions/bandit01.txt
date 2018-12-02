@@ -1,0 +1,4 @@
+This file is called - which is buggy in linux, so you need to put ./ before so
+cat ./-
+works just fine
+

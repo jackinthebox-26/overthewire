@@ -1,0 +1,6 @@
+go to the top of the server and the only result from the following command is the correct one
+
+find -size 33c -user bandit7 -group bandit6 2>/dev/null
+
+Note: the end sends all arrors to a garbage
+

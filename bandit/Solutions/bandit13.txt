@@ -1,0 +1,5 @@
+Just secure into 14 and read the contents
+
+ssh bandit14@localhost -i sshkey.private
+cat /etc/bandit_pass/bandit14
+

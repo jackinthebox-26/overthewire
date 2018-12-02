@@ -1,0 +1,63 @@
+I'll have to make a temp folder and decompress repeatedly
+
+mkdir /tmp/james1234
+cd /tmp/james1234
+cp /home/bandit12/data.txt data.txt
+cp data.txt master.txt
+xxd -r data.txt > data_reverse
+file data_reverse
+
+
+                data_reverse: gzip compressed data, was "data2.bin", last modified: Tue Oct 16 12:00:23 2018, max compression, from Unix
+
+mv data_reverse date.gz
+gunzip date.gz
+
+file date
+
+                 date: bzip2 compressed data, block size = 900k
+
+mv date data.bzip2
+
+bunzip2 data.bsip2
+
+file data.bzip2.out 
+                data.bzip2.out: gzip compressed data, was "data4.bin", last modified: Tue Oct 16 12:00:23 2018, max compression, from Unix
+
+ 
+
+mv data.bzip2.out data.gz
+gunzip data.gz
+
+file data 
+                 data: POSIX tar archive (GNU)
+mv data data.tar
+tar -xvf data.tar
+
+file data5.bin 
+                 data5.bin: POSIX tar archive (GNU)
+
+file data6.bin 
+                   data6.bin: bzip2 compressed data, block size = 900k
+
+mv data6.bin data.bzip2
+bunzip2 data.bzip2
+
+file data.bzip2.out 
+data.bzip2.out: POSIX tar archive (GNU)
+
+mv data.bzip2.out data.tar
+tar -xvf data.tar
+
+file data8.bin 
+                       data8.bin: gzip compressed data, was "data9.bin", last modified: Tue Oct 16 12:00:23 2018, max compression, from Unix
+
+
+mv data8.bin data.gz
+gunzip data.gz
+file data
+
+             data: ASCII text
+
+Can finally cat the file
+

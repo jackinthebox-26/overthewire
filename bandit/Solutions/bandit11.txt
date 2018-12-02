@@ -1,0 +1,3 @@
+The characters must be shifted, this can be done with tr
+
+cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]' 

@@ -1,0 +1,4 @@
+This is done by searching the directories. I just searched for a file that was 1033 bytes
+
+find -size 1033c
+

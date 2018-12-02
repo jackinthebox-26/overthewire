@@ -1,0 +1,4 @@
+This is found by sorting and finding the unique line
+
+cat data.txt | sort | uniq -u
+

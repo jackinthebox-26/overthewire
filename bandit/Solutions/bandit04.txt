@@ -1,0 +1,3 @@
+I used the file command to see the type of data contained in each file, the correct one is ASCII
+This can be done using
+file ./-*

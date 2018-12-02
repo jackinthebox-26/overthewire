@@ -1,0 +1,2 @@
+simply read the readme file
+cat readme

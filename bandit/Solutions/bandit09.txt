@@ -1,0 +1,4 @@
+The file must be converted to a string and then search for a few "==="
+
+strings data.txt | grep "==="
+

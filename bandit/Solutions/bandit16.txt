@@ -1,0 +1,6 @@
+See who's listening
+nmap -p 31000-32000 localhost
+
+
+Choose one
+openssl s_client -connect localhost:31790

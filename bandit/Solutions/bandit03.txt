@@ -1,0 +1,4 @@
+to list hidden files put
+ls -al
+and from there we can just cat the file
+
