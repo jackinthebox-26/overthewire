@@ -1,0 +1,3 @@
+This one is a bit tricky, but you can run a command through ssh before you get kicked out. So if you run /bin/sh you can get a sh window where you can run your commands and just car readme
+
+ssh -t -p 2220 bandit18@bandit.labs.overthewire.org /bin/sh

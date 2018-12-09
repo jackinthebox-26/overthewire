@@ -1,0 +1,3 @@
+This one jsut reques you to use the bandit20-do program to run a command to read the password file
+
+./bandit20-do cat /etc/bandit_pass/bandit20
