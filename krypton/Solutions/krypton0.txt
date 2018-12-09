@@ -1,0 +1,3 @@
+Just need to converte the given code from base 64
+
+   base64 -d key.txt 
