@@ -1,0 +1,9 @@
+We need to move to an older branch of the repo. First we need to look as the log
+
+git log
+
+and find the commit where they added mthe missing data and then checkout that branch
+
+git checkout 186a1038cc54d1358d42d468cdc8e3cc28a93fcb
+
+And now the password is in plain text

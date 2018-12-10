@@ -1,0 +1,9 @@
+This one is a bit wierd, so you use the ssh to shell into bandit26 with
+
+ssh bandit26@localhost -i bandit26.sshkey 
+
+But before you hit go you make the window really small and then you can upen a vi window with the bandit26 prinout so you can write commands such as
+
+:e /etc/bandit_pass/bandit26
+
+To find the password

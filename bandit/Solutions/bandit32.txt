@@ -1,0 +1,3 @@
+When you login you're auto put into the upershell program. But apparently if yo tpe $0 you have interactive bash, and then you can just read out the bandit33 password from its regular file
+
+cat /etc/bandit_pass/bandit33

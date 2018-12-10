@@ -1,0 +1,5 @@
+This repo has no information in the logs or branches. But if you type git show and hit tab, an option is secret so if you do 
+
+git show secret
+
+it shows you the password

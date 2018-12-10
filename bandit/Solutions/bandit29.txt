@@ -1,0 +1,5 @@
+There's no clues in the main git log, so I need to checkout a different branch, as found by using
+
+git branch -a
+
+by going to the dev branch the password is in the README

@@ -1,0 +1,13 @@
+Using the vim interface we established in the privious solution we want to find a shell. First we have to set the shell to the right place
+
+:set shell=/bin/bash
+
+Then we can look for a shell
+
+:shell
+
+And now we can use everything normally!
+
+Simply use the bandit27-do and read
+
+./bandit27-do cat /etc/bandit_pass/bandit27
