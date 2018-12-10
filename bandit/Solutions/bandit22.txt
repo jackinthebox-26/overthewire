@@ -1,0 +1,3 @@
+Another cron trail, this one copies the password to a generated temp file. By running the mytarget variable with bandit23 replacing $myname. this gives the file
+
+/tmp/8ca319486bfbbc3663ea0fbe81326349

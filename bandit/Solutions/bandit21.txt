@@ -1,0 +1,1 @@
+You just need to follow the cron trail which leads to a sh file that copies the password to a tmp file, the conviniently still has the password inside of it.

